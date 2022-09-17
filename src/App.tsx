@@ -34,6 +34,7 @@ function App() {
           <div className="inner-star"></div>
         </div>
       </div>
+      <div></div>
       <div className="FLAG greenland"></div>
       <div className="FLAG congo">
         <div className="star">
