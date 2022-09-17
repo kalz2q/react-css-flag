@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = "react-css-flag"
+  })
   return (
     <div className="App">
       <div className="FLAG belgium"></div>
@@ -95,6 +98,38 @@ function App() {
           <div className="circle"></div>
         </div>
       </div>
+
+      <div className="FLAG ab">
+        <div className="triangle-bl"></div>
+        <div className="triangle-br"></div>
+
+        <div className="sun">
+          <div className="tr tr1"></div>
+          <div className="tr tr2"></div>
+          <div className="tr tr3"></div>
+          <div className="tr tr4"></div>
+          <div className="tr tr5"></div>
+          <div className="tr tr6"></div>
+          <div className="tr tr7"></div>
+          <div className="tr tr8"></div>
+          <div className="tr tr9"></div>
+          <div className="circle"></div>
+        </div>
+      </div>
+      <div className="FLAG canada">
+        <div className="maple">
+          <div className="leaf1"></div>
+          <div className="right">
+            <div className="side-leaf"></div>
+          </div>
+          <div className="left">
+            <div className="side-leaf"></div>
+          </div>
+        </div>
+        <div className="stem"></div>
+      </div>
+
+
 
     </div>
   );
