@@ -70,7 +70,31 @@ function App() {
       <div className="FLAG pakistan">
         <div className="star"></div>
       </div>
-
+      <div className="FLAG christies"></div>
+      <div className="FLAG korea">
+        {/* <span>&#9783;<br></br>&#9776;</span> */}
+        <span>&#9776; </span><span>&#9781;</span>
+        {/* <span>&#9778;<br></br>&#9781;</span> */}
+        <span>&#9783;</span><span>&#9778;</span>
+        <div className="umyang"></div>
+      </div>
+      <div className="FLAG taiwan">
+        <div className="sun">
+          <div className="tr tr1"></div>
+          <div className="tr tr2"></div>
+          <div className="tr tr3"></div>
+          <div className="tr tr4"></div>
+          <div className="tr tr5"></div>
+          <div className="tr tr6"></div>
+          <div className="tr tr7"></div>
+          <div className="tr tr8"></div>
+          <div className="tr tr9"></div>
+          <div className="tr tr10"></div>
+          <div className="tr tr11"></div>
+          <div className="tr tr12"></div>
+          <div className="circle"></div>
+        </div>
+      </div>
 
     </div>
   );
