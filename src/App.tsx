@@ -129,11 +129,50 @@ function App() {
         </div>
         <div className="stem"></div>
       </div>
+      <div className="FLAG south-africa">
+        <div className="corner"></div>
+      </div>
+      <div className="FLAG swiss"></div>
 
+      <div className="FLAG india">
+        <div className="inner-circle">
+          <div className="diamond diamond1"></div>
+          <div className="diamond diamond2"></div>
+          <div className="diamond diamond3"></div>
+          <div className="diamond diamond4"></div>
+          <div className="diamond diamond5"></div>
+          <div className="diamond diamond6"></div>
+          <div className="diamond diamond7"></div>
+          <div className="diamond diamond8"></div>
+          <div className="diamond diamond9"></div>
+          <div className="diamond diamond10"></div>
+          <div className="diamond diamond11"></div>
+          <div className="diamond diamond12"></div>
+          <div className="diamond diamond13"></div>
+          <div className="diamond diamond14"></div>
+          <div className="diamond diamond15"></div>
+          <div className="diamond diamond16"></div>
 
-
+          <div className="dot dot1"></div>
+          <div className="dot dot2"></div>
+          <div className="dot dot3"></div>
+          <div className="dot dot4"></div>
+          <div className="dot dot5"></div>
+          <div className="dot dot6"></div>
+          <div className="dot dot7"></div>
+          <div className="dot dot8"></div>
+          <div className="dot dot9"></div>
+          <div className="dot dot10"></div>
+          <div className="dot dot11"></div>
+          <div className="dot dot12"></div>
+          <div className="dot dot13"></div>
+          <div className="dot dot14"></div>
+          <div className="dot dot15"></div>
+          <div className="dot dot16"></div>
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
