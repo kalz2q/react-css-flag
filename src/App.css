@@ -859,3 +859,134 @@
   left: 50%;
   margin: -20px 0 0 -40px;
 }
+
+.canada {
+  background: linear-gradient(to right, red 25%, white 25%, white 75%, red 75%);
+  position: relative;
+}
+
+.black {
+  background: grey;
+}
+.white {
+  background: pink;
+}
+.black.white {
+  background: orchid 0.5;
+}
+
+/*
+    .canada .maple {
+        position: relative;
+        -webkit-transform: scale(.25);
+        transform: scale(.23);
+        top: 40px;
+        .leaf1 {
+            position: absolute;
+            left: 20px;
+            border-top: 200px solid $red;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            height: 0;
+            width: 100px;
+            top: 15px;
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: -205px;
+                left: -30px;
+                width: 0;
+                height: 0;
+                border-left: 80px solid transparent;
+                border-right: 80px solid transparent;
+                border-top: 40px solid white;
+            }
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-left: 50px solid transparent;
+                border-right: 50px solid transparent;
+                border-bottom: 100px solid $red;
+                top: -260px;
+                left: 2px;
+            }
+        }
+        .right {
+            position: absolute;
+            -webkit-transform: rotate(65deg);
+            transform: rotate(65deg);
+            top: 40px;
+            right: -70px;
+        }
+        .left {
+            position: absolute;
+            -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+            top: 40px;
+            left: -70px;
+        }
+        .side-leaf {
+            position: relative;
+            border-top: 220px solid $red;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            height: 0;
+            width: 100px;
+            -webkit-transform: scale(.65);
+            transform: scale(.65);
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: -222px;
+                left: -38px;
+                width: 0;
+                height: 0;
+                border-left: 90px solid transparent;
+                border-right: 90px solid transparent;
+                border-top: 50px solid white;
+            }
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-left: 50px solid transparent;
+                border-right: 50px solid transparent;
+                border-bottom: 100px solid $red;
+                top: -260px;
+                left: 2px;
+            }
+        }
+    }
+    .stem {
+        position: absolute;
+        top: -210px;
+        border-bottom: 600px solid $red;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        height: 0;
+        width: 100px;
+        -webkit-transform: scale(.04);
+        transform: scale(.04);
+        &:after {
+            content: "";
+            position: absolute;
+            display: block;
+            border-bottom: 300px solid $red;
+            border-left: 250px solid transparent;
+            border-right: 250px solid transparent;
+            height: 0;
+            width: 450px;
+            top: 10px;
+            left: -420px;
+        }
+    }
+}
+
+*/
