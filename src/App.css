@@ -865,31 +865,24 @@
   position: relative;
 }
 
-.black {
-  background: grey;
-}
-.white {
-  background: pink;
-}
-.black.white {
-  background: orchid 0.5;
+.canada .maple {
+  position: relative;
+  -webkit-transform: scale(0.25);
+  transform: scale(0.23);
+  top: 40px;
 }
 
+.canada .maple .leaf1 {
+  position: absolute;
+  left: 20px;
+  border-top: 200px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 100px;
+  top: 15px;
+}
 /*
-    .canada .maple {
-        position: relative;
-        -webkit-transform: scale(.25);
-        transform: scale(.23);
-        top: 40px;
-        .leaf1 {
-            position: absolute;
-            left: 20px;
-            border-top: 200px solid $red;
-            border-left: 30px solid transparent;
-            border-right: 30px solid transparent;
-            height: 0;
-            width: 100px;
-            top: 15px;
             &:before {
                 content: '';
                 display: block;

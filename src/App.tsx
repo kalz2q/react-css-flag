@@ -116,7 +116,7 @@ function App() {
           <div className="circle"></div>
         </div>
       </div>
-      <div className="FLAG black white"></div>
+
       <div className="FLAG canada">
         <div className="maple">
           <div className="leaf1"></div>
